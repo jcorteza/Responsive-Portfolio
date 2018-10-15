@@ -3,6 +3,7 @@ body {
     background-image: url("../images/funky-lines.png");
     background-repeat: repeat;
     font-size: 16px;
+    margin-bottom: -10px;
 }
 /*Header styling*/
     header {
@@ -94,18 +95,19 @@ figure {
     margin: 0px 40px 0px 0px;
 }
 figure img {
-    max-width: 300px;
+    width: 300px;
+    height: 300px;
     margin: 0px;
 }
 figure figcaption {
     clear: both;
     position: relative;
-    bottom: 70px;
+    bottom: 65px;
     color: white;
     background-color: #4aaaa5;
     font-family: Times, 'Times New Roman', serif;
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
     font-size: 16pt;
 }
 /* contact page form styling */
